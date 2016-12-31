@@ -4,13 +4,13 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Solid and lightning quick.",
-  "shortdescription" : "Common baton",
+  "shortdescription" : "Common Baton",
   "tooltipKind" : "sword",
   "category" : "baton",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","baton"],
 
-  "animation" : "baton.animation",
+  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
   "animationParts" : { },
   "animationCustom" : { },
 
@@ -42,7 +42,7 @@
         "allowRotate" : true
       },
       "windup" : {
-        "duration" : 0.05,
+        "duration" : 0.04,
         "armRotation" : -20,
         "weaponRotation" : -20,
         "weaponOffset" : [0, 2.25],
@@ -51,7 +51,7 @@
         "allowRotate" : false
       },
       "fire" : {
-        "duration" : 0.2,
+        "duration" : 0.14,
         "armRotation" : -135,
         "weaponRotation" : 40,
         "weaponOffset" : [0, 2.5],

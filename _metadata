@@ -2,7 +2,7 @@
   "author" : "isaac as THE HONEY BADGER",
   "description" : "",
   "friendlyName" : "Grand Armory",
-  "includes" : [],
+  "includes" : ["QSARM.IHC","FrackinUniverse","GRANDARMPRE.IHC"],
   "link" : "http://community.playstarbound.com/threads/124193/",
   "name" : "GRANDARM.IHC",
   "requires" : [],

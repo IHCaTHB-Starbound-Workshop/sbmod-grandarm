@@ -10,7 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","baton"],
 
-  "animation" : "baton.animation",
+  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
   "animationParts" : { },
   "animationCustom" : {
     // slow down swoosh a bit for elemental
@@ -30,7 +30,7 @@
       "damageSourceKind" : "<elementalType>dagger",
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
-      "knockbackRange" : [10, 15],
+      "knockbackRange" : [15, 20],
       "timeoutGroup" : "primary"
     },
     "stances" : {
@@ -43,7 +43,7 @@
         "allowRotate" : true
       },
       "windup" : {
-        "duration" : 0.05,
+        "duration" : 0.04,
         "armRotation" : -20,
         "weaponRotation" : -20,
         "weaponOffset" : [0, 2.25],
@@ -52,7 +52,7 @@
         "allowRotate" : false
       },
       "fire" : {
-        "duration" : 0.2,
+        "duration" : 0.14,
         "armRotation" : -135,
         "weaponRotation" : 40,
         "weaponOffset" : [0, 2.5],
@@ -65,7 +65,7 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "batonrnames.config:nameGen",
+    "nameGenerator" : "batonnames.config:nameGen",
     "elementalType" : [
       "fire",
       "ice",

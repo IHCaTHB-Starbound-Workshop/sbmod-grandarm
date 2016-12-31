@@ -3,14 +3,14 @@
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "This spear is perfect for enemies just out of reach.",
-  "shortdescription" : "Common Spear",
+  "description" : "halberd",
+  "shortdescription" : "halberd",
   "tooltipKind" : "sword",
   "category" : "axe",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","axe"],
 
-  "animation" : "halberd.animation",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
   "animationCustom" : { },
 
@@ -32,10 +32,10 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
+//    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?crop=0;0;24;46",
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;0;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;92;24;192",
         "variants" : 59,
         "paletteSwap" : true
       },

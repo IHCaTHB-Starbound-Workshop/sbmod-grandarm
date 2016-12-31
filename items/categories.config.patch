@@ -1,13 +1,13 @@
 [
   {
     "op": "add",
-    "path": "/labels/cane",
-    "value": "Cane"
+    "path": "/labels/baton",
+    "value": "Baton"
   },
   {
     "op": "add",
-    "path": "/labels/baton",
-    "value": "Baton"
+    "path": "/labels/cane",
+    "value": "Cane"
   },
   {
     "op": "add",
