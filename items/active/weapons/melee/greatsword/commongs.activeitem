@@ -24,7 +24,7 @@
     "baseDps" : [10, 11],
     "stances" : {
       "idle" : {
-        "weaponOffset":[0,1.75]
+        "weaponOffset":[0,0]
       },
       "windup1" : {
         "duration" : 0.15,
