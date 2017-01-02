@@ -1,10 +1,10 @@
 {
-  "itemName" : "uncommonlb",
+  "itemName" : "uncommongb",
   "price" : 990,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "A bow and arrow of unknown origin.",
-  "shortdescription" : "Uncommon Longbow",
+  "shortdescription" : "Uncommon Greatbow",
   "tooltipKind" : "gun",
   "category" : "bow",
   "twoHanded" : true,

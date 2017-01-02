@@ -1,10 +1,10 @@
 {
-  "itemName" : "uncommonlb",
-  "price" : 990,
+  "itemName" : "raregb",
+  "price" : 1080,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "rare",
   "description" : "A bow and arrow of unknown origin.",
-  "shortdescription" : "Uncommon Longbow",
+  "shortdescription" : "Uncommon Greatbow",
   "tooltipKind" : "gun",
   "category" : "bow",
   "twoHanded" : true,
@@ -76,43 +76,56 @@
       "fire" : {
         "primaryAbility" : {
           "projectileType" : "flamearrow",
-          "powerProjectileType" : "chargedflamearrow"
+          "powerProjectileType" : "chargedflamearrow",
+          "projectileParameters" : {
+            "statusEffects" : ["burning"]
+          }
         },
         "altAbility" : {
-          "projectileType" : "flamearrow"
+          "projectileType" : "flamearrow",
+          "projectileParameters" : {
+            "statusEffects" : ["burning"]
+          }
         }
       },
       "ice" : {
         "primaryAbility" : {
           "projectileType" : "icearrow",
-          "powerProjectileType" : "chargedicearrow"
+          "powerProjectileType" : "chargedicearrow",
+          "projectileParameters" : {
+            "statusEffects" : ["frostslow"]
+          }
         },
         "altAbility" : {
-          "projectileType" : "icearrow"
+          "projectileType" : "icearrow",
+          "projectileParameters" : {
+            "statusEffects" : ["frostslow"]
+          }
         }
       },
       "poison" : {
         "primaryAbility" : {
           "projectileType" : "poisonarrow",
-          "powerProjectileType" : "chargedpoisonarrow",
-          "projectileParameters" : {
-            "statusEffects" : []
-          }
+          "powerProjectileType" : "chargedpoisonarrow"
+
         },
         "altAbility" : {
-          "projectileType" : "poisonarrow",
-          "projectileParameters" : {
-            "statusEffects" : []
-          }
+          "projectileType" : "poisonarrow"
         }
       },
       "electric" : {
         "primaryAbility" : {
           "projectileType" : "purplearrow",
-          "powerProjectileType" : "chargedpurplearrow"
+          "powerProjectileType" : "chargedpurplearrow",
+          "projectileParameters" : {
+            "statusEffects" : ["electrified"]
+          }
         },
         "altAbility" : {
-          "projectileType" : "purplearrow"
+          "projectileType" : "purplearrow",
+          "projectileParameters" : {
+            "statusEffects" : ["electrified"]
+          }
         }
       }
     },

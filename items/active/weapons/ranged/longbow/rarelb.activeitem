@@ -1,6 +1,6 @@
 {
   "itemName" : "rarelb",
-  "price" : 990,
+  "price" : 1080,
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "A bow and arrow of unknown origin.",
@@ -13,42 +13,41 @@
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : { },
   "animationCustom" : {
-   "animatedParts" : {
-    "parts" : {
-      "bow" : {
-        "properties" : {
-          "zLevel" : 0,
-          "offset" : [0.5,0],
-          "centered" : true,
-          "image" : "<partImage>",
-          "transformationGroups" : ["weapon"]
-        }
-      },
-      "bow0" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : 0,
-          "offset" : [0.5,0],
-          "image" : "<partImage>",
-          "transformationGroups" : ["weapon"]
-        }
-      },
-      "arrow" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : 1,
-          "image" : "<partImage>:<drawFrame>",
-          "transformationGroups" : ["weapon"]
+    "animatedParts" : {
+      "parts" : {
+        "bow" : {
+          "properties" : {
+            "zLevel" : 0,
+            "offset" : [0.5,0],
+            "centered" : true,
+            "image" : "<partImage>",
+            "transformationGroups" : ["weapon"]
+          }
+        },
+        "bow0" : {
+          "properties" : {
+            "centered" : true,
+            "zLevel" : 0,
+            "offset" : [0.5,0],
+            "image" : "<partImage>",
+            "transformationGroups" : ["weapon"]
+          }
+        },
+        "arrow" : {
+          "properties" : {
+            "centered" : true,
+            "zLevel" : 1,
+            "image" : "<partImage>:<drawFrame>",
+            "transformationGroups" : ["weapon"]
+          }
         }
       }
+    },
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
     }
-   
-   },
-   "sounds" : {
-    "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
-    "release" : [ "/sfx/gun/bow_loose.ogg" ],
-    "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
-   }
   },
 
   "scripts" : ["/items/active/weapons/bow/bow.lua"],
@@ -66,7 +65,7 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "lbnames.config:nameGen",
+    "nameGenerator" : "bownames.config:nameGen",
     "elementalType" : [
       "fire",
       "ice",
