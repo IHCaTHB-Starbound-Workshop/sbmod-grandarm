@@ -5,7 +5,7 @@
   "rarity" : "rare",
   "description" : "A bow and arrow of unknown origin.",
   "shortdescription" : "Rare Greatbow",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "bow",
   "category" : "bow",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","bow"],
