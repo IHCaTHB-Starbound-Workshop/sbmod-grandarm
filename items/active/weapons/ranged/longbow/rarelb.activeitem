@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "A bow and arrow of unknown origin.",
-  "shortdescription" : "Uncommon Longbow",
+  "shortdescription" : "Rare Longbow",
   "tooltipKind" : "gun",
   "category" : "bow",
   "twoHanded" : true,
@@ -54,14 +54,17 @@
 
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
-
+    "projectileParameters" : {
+      "power" : 7.5
+    }
   },
 
   "altAbilityType" : "zenshot",
   "altAbility" : {
-
+    "projectileParameters" : {
+      "power" : 10.125
+    }
   },
-  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{

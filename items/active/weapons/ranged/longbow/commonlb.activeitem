@@ -63,7 +63,6 @@
   "altAbility" : {
 
   },
-  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{

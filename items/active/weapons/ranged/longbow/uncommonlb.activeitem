@@ -54,14 +54,17 @@
 
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
-
+    "projectileParameters" : {
+      "power" : 7.5
+    }
   },
 
   "altAbilityType" : "zenshot",
   "altAbility" : {
-
+    "projectileParameters" : {
+      "power" : 9.125
+    }
   },
-  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
