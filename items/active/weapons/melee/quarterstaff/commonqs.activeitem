@@ -51,6 +51,27 @@
     "nameGenerator" : "qsnames.config:nameGen",
     "animationParts" : {
       "blade" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-18?flipy",
+        "variants" : 50,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png",
+        "variants" : 50,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle", "blade" ]
+  },
+  {
+    "nameGenerator" : "qsnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
         "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32?flipy",
         "variants" : 50,
         "paletteSwap" : true
