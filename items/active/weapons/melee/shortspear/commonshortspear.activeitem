@@ -63,12 +63,12 @@
     "nameGenerator" : "/items/active/weapons/melee/spear/spearnames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/spear/blade/<variant>.png?crop=0;24;24;64",
+        "path" : "/items/active/weapons/melee/spear/blade/<variant>.png?crop=0;28;24;64",
         "variants" : 50,
         "paletteSwap" : true
       },
       "handle" : {
-        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-34",
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32",
         "variants" : 50,
         "paletteSwap" : true
       }
