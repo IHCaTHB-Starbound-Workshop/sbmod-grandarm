@@ -1,0 +1,18 @@
+[
+//club
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": {
+      "name": "npcclub"
+    }
+  },
+//greatsword
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": {
+      "name": "npcgs"
+    }
+  }
+]

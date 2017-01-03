@@ -1,20 +1,18 @@
 [
-//cane
-  {
-    "op": "add",
-    "path": "/items/override/0/1/0/primary/-",
-    "value": "npccane"
-  },
 //club
   {
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
-    "value": "npcclub"
+    "value": {
+      "name": "npcclub"
+    }
   },
 //greatsword
   {
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
-    "value": "npcgs"
+    "value": {
+      "name": "npcgs"
+    }
   }
 ]

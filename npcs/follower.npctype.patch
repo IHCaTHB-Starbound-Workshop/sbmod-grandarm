@@ -1,0 +1,14 @@
+[
+//club
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/sheathedprimary/-",
+    "value": "npcclub"
+  },
+//greatsword
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/sheathedprimary/-",
+    "value": "npcgs"
+  }
+]

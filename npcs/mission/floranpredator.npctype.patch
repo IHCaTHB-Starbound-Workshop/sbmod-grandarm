@@ -1,4 +1,5 @@
 [
+//cane
   {
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
@@ -33,5 +34,77 @@
     "op": "add",
     "path": "/items/override/0/1/6/primary/-",
     "value": "npccane"
+  },
+//club
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcclub"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/1/primary/-",
+    "value": "npcclub"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/2/primary/-",
+    "value": "npcclub"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/3/primary/-",
+    "value": "npcclub"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/4/primary/-",
+    "value": "npcclub"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/5/primary/-",
+    "value": "npcclub"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcclub"
+  },
+//greatsword
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcgs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/1/primary/-",
+    "value": "npcgs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/2/primary/-",
+    "value": "npcgs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/3/primary/-",
+    "value": "npcgs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/4/primary/-",
+    "value": "npcgs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/5/primary/-",
+    "value": "npcgs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcgs"
   }
 ]

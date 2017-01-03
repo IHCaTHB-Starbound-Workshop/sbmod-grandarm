@@ -1,12 +1,12 @@
 [[
 //shortspear
-{"op":"test","path":"commonMelee/0/1/pool/7","value":"commonshortspear","inverse":true},
+{"op":"test","path":"/commonMelee/0/1/pool/7","value":"commonshortspear","inverse":true},
 {"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"commonshortspear"}},
 {"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"uncommonshortspear"}},
 {"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"rareshortspear"}}
 ],[
 //quarterstaff
-{"op":"test","path":"commonMelee/0/1/pool/6","value":"commonqs","inverse":true},
+{"op":"test","path":"/commonMelee/0/1/pool/6","value":"commonqs","inverse":true},
 {"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"commonqs"}},
 {"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"uncommonqs"}},
 {"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"rareqs"}}
