@@ -1,0 +1,62 @@
+[
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/1/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/2/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/3/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/0/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/1/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/2/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/3/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/novakid/0/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/novakid/1/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/novakid/2/1/0/primary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/novakid/3/1/0/primary/-",
+    "value": "npcac"
+  }
+]

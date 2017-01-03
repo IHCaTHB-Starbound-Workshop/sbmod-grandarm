@@ -1,0 +1,67 @@
+[
+  {
+    "op": "add",
+    "path": "/items/apex/0/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/1/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/2/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/0/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/1/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/2/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/0/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/1/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/2/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/0/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/1/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/2/1/0/sheathedprimary/-",
+    "value": "npcac"
+  },
+  {
+    "op": "add",
+    "path": "/items/novakid/0/1/0/primary/-",
+    "value": "npcac"
+  }
+]
