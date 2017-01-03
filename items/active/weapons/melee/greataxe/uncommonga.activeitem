@@ -164,7 +164,7 @@
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [  "handle" , "blade0" , "blade", "blade1" ]
   },
-{
+  {
     "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
     "elementalType" : [
       "fire",
