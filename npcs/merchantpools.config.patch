@@ -1,0 +1,16 @@
+[[
+{"op":"test","path":"/randomswords/0/1/6","value":{"item":{"name":"commonqs"},"rarity":0.02,"useSeed":true},"inverse":true},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonqs"},"rarity":0.02,"useSeed":true}}
+],[
+{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"commonac"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"commonlb"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"commongb"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"commonsb"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonbaton"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commoncane"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonclub"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonga"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commongs"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonmace"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonshortspear"},"rarity":0.02,"useSeed":true}}
+]]
