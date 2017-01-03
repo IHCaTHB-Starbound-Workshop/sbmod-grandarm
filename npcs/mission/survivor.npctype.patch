@@ -1,7 +1,14 @@
 [
+//armcannon
   {
     "op": "add",
     "path": "/items/override/0/1/0/sheathedprimary/-",
     "value": "npcac"
+  },
+//cane
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npccane"
   }
 ]

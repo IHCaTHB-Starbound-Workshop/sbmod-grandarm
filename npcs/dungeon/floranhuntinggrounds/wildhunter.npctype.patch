@@ -1,10 +1,4 @@
 [
-//armcannon
-  {
-    "op": "add",
-    "path": "/items/override/0/1/0/primary/-",
-    "value": "npcac"
-  },
 //baton
   {
     "op": "add",
