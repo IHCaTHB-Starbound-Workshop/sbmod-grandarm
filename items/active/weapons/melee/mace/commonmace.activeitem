@@ -27,7 +27,8 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
-
+  "critChance" : 10,
+  "critBonus" : 11,
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
     "fireTime" : [0.8, 1],

@@ -18,7 +18,8 @@
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
+  "critChance" : 10,
+  "critBonus" : 2,
   "aimOffset" : 0.0,
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],

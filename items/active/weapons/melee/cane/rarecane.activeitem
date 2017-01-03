@@ -31,7 +31,8 @@
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
+  "critChance" : 6,
+  "critBonus" : 3,
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : [0.4, 0.54], //80% original shortsword model

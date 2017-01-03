@@ -60,7 +60,8 @@
   },
 
   "scripts" : ["/items/active/weapons/bow/bow.lua"],
-
+  "critChance" : 10,
+  "critBonus" : 6,
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
     "cooldownTime" : 0.6,

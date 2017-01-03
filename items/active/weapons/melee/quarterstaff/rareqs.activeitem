@@ -33,7 +33,8 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "aimOffset" : -1.0,
-
+  "critChance" : 6,
+  "critBonus" : 7, 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : [0.55, 0.74],

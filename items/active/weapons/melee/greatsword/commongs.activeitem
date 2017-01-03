@@ -17,7 +17,8 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
-
+  "critChance" : 6,
+  "critBonus" : 3,
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : [0.8, 1],

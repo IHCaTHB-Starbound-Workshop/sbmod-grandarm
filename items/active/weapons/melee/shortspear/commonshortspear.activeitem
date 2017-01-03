@@ -29,7 +29,8 @@
   "elementalType" : "physical",
 
   "aimOffset" : -1.0,
-
+  "critChance" : 4,
+  "critBonus" : 7, 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : [0.72, 1.05],
