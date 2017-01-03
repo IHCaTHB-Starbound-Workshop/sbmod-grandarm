@@ -358,6 +358,97 @@
     "path": "/items/novakid/0/1/4/sheathedprimary/-",
     "value": "npcclub"
   },
+//greataxe
+  {
+    "op": "add",
+    "path": "/items/apex/0/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/1/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/2/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/0/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/1/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/2/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/floran/0/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/floran/1/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/floran/2/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/0/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/1/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/2/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/0/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/1/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/2/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/0/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/1/1/0/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/2/1/0/primary/-",
+    "value": "npcga"
+  },
 //greatsword
   {
     "op": "add",
@@ -478,5 +569,96 @@
     "op": "add",
     "path": "/items/novakid/0/1/4/sheathedprimary/-",
     "value": "npcgs"
+  },
+//mace
+  {
+    "op": "add",
+    "path": "/items/apex/0/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/1/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/apex/2/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/0/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/1/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/avian/2/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/floran/0/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/floran/1/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/floran/2/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/0/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/1/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/human/2/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/0/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/1/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/2/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/0/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/1/1/0/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/hylotl/2/1/0/primary/-",
+    "value": "npcmace"
   }
 ]

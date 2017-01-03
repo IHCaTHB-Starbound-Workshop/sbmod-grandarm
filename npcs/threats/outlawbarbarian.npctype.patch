@@ -1,27 +1,15 @@
 [
-//cane
-  {
-    "op": "add",
-    "path": "/items/override/0/1/0/primary/-",
-    "value": "npccane"
-  },
 //club
   {
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
-    "value": "npcclub"
+    "value": "npclub"
   },
 //greataxe
   {
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcga"
-  },
-//greatsword
-  {
-    "op": "add",
-    "path": "/items/override/0/1/0/primary/-",
-    "value": "npcgs"
   },
 //mace
   {

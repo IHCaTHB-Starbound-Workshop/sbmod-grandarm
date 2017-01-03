@@ -17,10 +17,22 @@
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcclub"
   },
+//greataxe
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcga"
+  },
 //greatsword
   {
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcgs"
+  },
+//mace
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcmace"
   }
 ]

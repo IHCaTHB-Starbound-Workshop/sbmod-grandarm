@@ -1,0 +1,20 @@
+[
+//club
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": "npclub"
+  },
+//greataxe
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": "npcga"
+  },
+//mace
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": "npcmace"
+  }
+]
