@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": {
+      "name": "npclb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": {
+      "name": "npcgb"
+    }
+  }
+]

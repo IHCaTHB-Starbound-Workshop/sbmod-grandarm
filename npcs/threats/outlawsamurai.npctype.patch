@@ -10,5 +10,16 @@
     "op": "add",
     "path": "/items/override/0/1/0/sheathedprimary/-",
     "value": "npcgs"
+  },
+//longbow
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npclb"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcgb"
   }
 ]

@@ -1,12 +1,25 @@
 [
+//club
   {
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcclub"
   },
+//greatsword
   {
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcgs"
+  },
+//longbow
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": "npclb"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": "npcgb"
   }
 ]

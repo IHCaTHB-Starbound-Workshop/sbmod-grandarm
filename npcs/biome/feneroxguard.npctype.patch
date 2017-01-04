@@ -1,19 +1,16 @@
 [
-//baton
-  {
-    "op": "add",
-    "path": "/items/override/0/1/0/primary/-",
-    "value": "npcbaton"
-  },
-//longbow
   {
     "op": "add",
     "path": "/items/override/0/1/0/sheathedprimary/-",
-    "value": "npclb"
+    "value": {
+      "name": "npclb"
+    }
   },
   {
     "op": "add",
     "path": "/items/override/0/1/0/sheathedprimary/-",
-    "value": "npcgb"
+    "value": {
+      "name": "npcgb"
+    }
   }
 ]
