@@ -600,5 +600,48 @@
     "op": "add",
     "path": "/items/hylotl/2/1/0/primary/-",
     "value": "npcmace"
+  },
+//longbow
+  {
+    "op": "add",
+    "path": "/items/glitch/0/1/0/sheathedprimary/-",
+    "value": {
+      "name": "npcgb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/0/1/0/sheathedprimary/-",
+    "value": {
+      "name": "npclb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/1/1/0/sheathedprimary/-",
+    "value": {
+      "name": "npcgb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/1/1/0/sheathedprimary/-",
+    "value": {
+      "name": "npclb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/2/1/0/sheathedprimary/-",
+    "value": {
+      "name": "npcgb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/glitch/2/1/0/sheathedprimary/-",
+    "value": {
+      "name": "npclb"
+    }
   }
 ]
