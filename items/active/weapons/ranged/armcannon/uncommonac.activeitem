@@ -76,16 +76,16 @@
     ],
     "elementalConfig" : {
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
       }
     },
     "animationParts" : {
@@ -110,16 +110,16 @@
     ],
     "elementalConfig" : {
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
       }
     },
     "animationParts" : {
@@ -143,16 +143,16 @@
     ],
     "elementalConfig" : {
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
       }
     },
     "animationParts" : {
@@ -177,16 +177,16 @@
     ],
     "elementalConfig" : {
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma" }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
       }
     },
     "animationParts" : {

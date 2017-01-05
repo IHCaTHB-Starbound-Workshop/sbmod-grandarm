@@ -9,6 +9,7 @@
   "category" : "bow",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","bow"],
+  "radioMessagesOnPickup" : [ "pickupbow" ],
 
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : { },

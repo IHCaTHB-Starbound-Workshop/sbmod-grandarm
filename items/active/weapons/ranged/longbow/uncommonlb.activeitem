@@ -5,10 +5,11 @@
   "rarity" : "Uncommon",
   "description" : "A bow and arrow of unknown origin.",
   "shortdescription" : "Uncommon Longbow",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "bow",
   "category" : "bow",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","bow"],
+  "radioMessagesOnPickup" : [ "pickupbow" ],
 
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : { },

@@ -76,16 +76,16 @@
     ],
     "elementalConfig" : {
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "statusEffects" : [ "burning" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet", "statusEffects" : [ "burning" ] } }
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "statusEffects" : [ "frostslow" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet", "statusEffects" : [ "frostslow" ] } }
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "statusEffects" : [ "weakpoison" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet", "statusEffects" : [ "weakpoison" ] } }
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "statusEffects" : [ "electrified" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet", "statusEffects" : [ "electrified" ] } }
       }
     },
     "animationParts" : {
@@ -110,16 +110,16 @@
     ],
     "elementalConfig" : {
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "statusEffects" : [ "burning" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet", "statusEffects" : [ "burning" ] } }
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "statusEffects" : [ "frostslow" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet", "statusEffects" : [ "frostslow" ] } }
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "statusEffects" : [ "weakpoison" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet", "statusEffects" : [ "weakpoison" ] } }
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "statusEffects" : [ "electrified" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet", "statusEffects" : [ "electrified" ] } }
       }
     },
     "animationParts" : {
@@ -143,16 +143,16 @@
     ],
     "elementalConfig" : {
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "statusEffects" : [ "burning" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet", "statusEffects" : [ "burning" ] } }
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "statusEffects" : [ "frostslow" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet", "statusEffects" : [ "frostslow" ] } }
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "statusEffects" : [ "weakpoison" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet", "statusEffects" : [ "weakpoison" ] } }
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "statusEffects" : [ "electrified" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet", "statusEffects" : [ "electrified" ] } }
       }
     },
     "animationParts" : {
@@ -177,16 +177,16 @@
     ],
     "elementalConfig" : {
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "statusEffects" : [ "burning" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet", "statusEffects" : [ "burning" ] } }
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "statusEffects" : [ "frostslow" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet", "statusEffects" : [ "frostslow" ] } }
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "statusEffects" : [ "weakpoison" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet", "statusEffects" : [ "weakpoison" ] } }
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "statusEffects" : [ "electrified" ] } }
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet", "statusEffects" : [ "electrified" ] } }
       }
     },
     "animationParts" : {
