@@ -82,7 +82,7 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builder" : "/items/buildscripts/buildrandbow.lua",
   "builderConfig" : [{
     "nameGenerator" : "bownames.config:nameGen",
     "elementalType" : [

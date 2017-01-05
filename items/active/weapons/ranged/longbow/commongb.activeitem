@@ -85,7 +85,7 @@
   },
   "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
 
-  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builder" : "/items/buildscripts/buildrandbow.lua",
   "builderConfig" : [{
     "nameGenerator" : "bownames.config:nameGen",
     "animationParts" : {
