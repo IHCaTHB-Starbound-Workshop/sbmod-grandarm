@@ -28,5 +28,11 @@
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcmace"
+  },
+//shortspear
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcshortspear"
   }
 ]
