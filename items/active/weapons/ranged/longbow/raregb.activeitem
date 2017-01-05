@@ -134,7 +134,7 @@
       "electric" : {
         "primaryAbility" : {
           "projectileType" : "purplearrow",
-          "powerProjectileType" : "chargedpurplearrow",
+          "powerProjectileType" : "statchargedpurplearrow",
           "projectileParameters" : {
             "statusEffects" : ["electrified"]
           }

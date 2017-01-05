@@ -79,7 +79,7 @@
         "paletteSwap" : true
       },
       "arrow" : {
-        "path" : "arrow/arrow.png",
+        "path" : "/items/active/weapons/ranged/longbow/arrow/arrow.png",
         "paletteSwap" : false
       }
     },

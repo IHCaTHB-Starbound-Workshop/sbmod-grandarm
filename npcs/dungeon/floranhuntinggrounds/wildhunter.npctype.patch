@@ -1,4 +1,16 @@
-[
+[[
+  {
+    "op": "test",
+    "path": "/items/override/0/1/0/primary/6",
+    "value": "npcqs",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcqs"
+  }
+],[
 //baton
   {
     "op": "add",
@@ -41,4 +53,4 @@
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcshortspear"
   }
-]
+]]

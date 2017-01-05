@@ -1,4 +1,15 @@
-[
+[[
+  {
+    "op": "test",
+    "path": "/items/override/0/1/0/primary/5",
+    "value": "npcqs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcqs"
+  }
+],[
 //cane
   {
     "op": "add",
@@ -35,4 +46,4 @@
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcshortspear"
   }
-]
+]]

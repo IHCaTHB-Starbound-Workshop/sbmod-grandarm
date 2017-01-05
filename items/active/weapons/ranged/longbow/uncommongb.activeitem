@@ -94,7 +94,7 @@
       "fire" : {
         "primaryAbility" : {
           "projectileType" : "flamearrow",
-          "powerProjectileType" : "chargedflamearrow"
+          "powerProjectileType" : "nostatchargedflamearrow"
         },
         "altAbility" : {
           "projectileType" : "flamearrow"
@@ -103,7 +103,7 @@
       "ice" : {
         "primaryAbility" : {
           "projectileType" : "icearrow",
-          "powerProjectileType" : "chargedicearrow"
+          "powerProjectileType" : "nostatchargedicearrow"
         },
         "altAbility" : {
           "projectileType" : "icearrow"
@@ -111,17 +111,11 @@
       },
       "poison" : {
         "primaryAbility" : {
-          "projectileType" : "poisonarrow",
-          "powerProjectileType" : "chargedpoisonarrow",
-          "projectileParameters" : {
-            "statusEffects" : []
-          }
+          "projectileType" : "nostatpoisonarrow",
+          "powerProjectileType" : "nostatchargedpoisonarrow"
         },
         "altAbility" : {
-          "projectileType" : "poisonarrow",
-          "projectileParameters" : {
-            "statusEffects" : []
-          }
+          "projectileType" : "nostatpoisonarrow"
         }
       },
       "electric" : {
