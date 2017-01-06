@@ -1,9 +1,24 @@
 {
   "author" : "isaac as THE HONEY BADGER",
-  "description" : "",
+  "description" : "^#5aa9d6;For when one whacking-stick just isnt enough.^reset;
+
+The Grand Armory Mod adds a bunch of new weapon types to random generation all of which use the existing weapon artwork.
+
+Baton - short and quick stick
+Cane - medium and quick stick
+Club - large, heavy, blunt weapon which stuns
+Greataxe - large, heavy, double bladed axe
+Greatsword - slightly longer reach than standard broadsword
+Mace - light and quick...for a hammer
+Quarterstaff - long and quick stick
+Shortspear - one handed short-range spear
+Armcannon - very fast plasma shot
+Longbow - great for hunting
+Spellbook - contains arcane magics
+
+For more, click the MEGATHREAD link from the steam page.",
   "friendlyName" : "Grand Armory",
   "includes" : ["QSARM.IHC","FrackinUniverse","GRANDARMPRE.IHC"],
-  "link" : "http://community.playstarbound.com/threads/124193/",
   "name" : "GRANDARM.IHC",
   "requires" : [],
   "version" : "0.2"
