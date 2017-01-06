@@ -66,7 +66,7 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "batonnames.config:nameGen",
+    "nameGenerator" : "/items/active/weapons/melee/quarterstaff/qsnames.config:nameGen",
     "elementalType" : [
       "fire",
       "ice",

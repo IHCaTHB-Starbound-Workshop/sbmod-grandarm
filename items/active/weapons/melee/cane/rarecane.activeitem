@@ -79,7 +79,7 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "canenames.config:nameGen",
+    "nameGenerator" : "/items/active/weapons/melee/quarterstaff/qsnames.config:nameGen",
     "elementalType" : [
       "fire",
       "ice",
@@ -127,7 +127,7 @@
     "iconDrawables" : [ "handle" ]
   },
   {
-    "nameGenerator" : "canenames.config:nameGen",
+    "nameGenerator" : "/items/active/weapons/melee/quarterstaff/qsnames.config:nameGen",
     "elementalType" : [
       "fire",
       "ice",
@@ -180,7 +180,7 @@
     "iconDrawables" : [ "blade", "handle" ]
   },
   {
-    "nameGenerator" : "canenames.config:nameGen",
+    "nameGenerator" : "/items/active/weapons/melee/quarterstaff/qsnames.config:nameGen",
     "elementalType" : [
       "fire",
       "ice",

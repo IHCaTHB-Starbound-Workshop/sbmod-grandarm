@@ -79,7 +79,7 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "/items/active/weapons/wand/generated/wandnames.config:nameGen",
+    "nameGenerator" : "sbnames.config:nameGen",
     "elementalType" : [
       "electric"
     ],
