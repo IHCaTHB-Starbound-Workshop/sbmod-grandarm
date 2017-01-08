@@ -60,11 +60,6 @@
       "speed" : 50
   },
 
-  "altAbilityType" : "zenshot",
-  "altAbility" : {
-      "speed" : 50
-  },
-
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
     "animationParts" : {

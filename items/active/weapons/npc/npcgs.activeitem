@@ -80,14 +80,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "bladecharge",
-      "downstab",
-      "parry",
-      "risingslash",
-      "spinslash",
-      "superspinslash"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "blade" , "handle"]
   },
@@ -104,14 +97,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "bladecharge",
-      "downstab",
-      "parry",
-      "risingslash",
-      "spinslash",
-      "superspinslash"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "blade" , "handle"]
   },
@@ -128,14 +114,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "bladecharge",
-      "downstab",
-      "parry",
-      "risingslash",
-      "spinslash",
-      "superspinslash"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "blade" , "handle"]
   },
@@ -152,14 +131,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "bladecharge",
-      "downstab",
-      "parry",
-      "risingslash",
-      "spinslash",
-      "superspinslash"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "blade" , "handle"]
   },
@@ -176,14 +148,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "bladecharge",
-      "downstab",
-      "parry",
-      "risingslash",
-      "spinslash",
-      "superspinslash"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "blade" , "handle"]
   }]

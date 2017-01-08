@@ -133,11 +133,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "uppercut",
-      "physicalshockwave",
-      "groundslam"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [  "handle" , "blade0" , "blade", "blade1" ]
   },
@@ -164,11 +160,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "uppercut",
-      "physicalshockwave",
-      "groundslam"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [  "handle" , "blade0" , "blade", "blade1" ]
   }]

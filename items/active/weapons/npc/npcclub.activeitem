@@ -122,14 +122,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "bladecharge",
-      "downstab",
-      "parry",
-      "risingslash",
-      "spinslash",
-      "superspinslash"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "handle" , "blade" ]
   }]

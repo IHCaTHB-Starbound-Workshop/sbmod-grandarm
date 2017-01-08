@@ -75,13 +75,6 @@
     }
   },
 
-  "altAbilityType" : "zenshot",
-  "altAbility" : {
-    "projectileParameters" : {
-      "speed" : 50,
-      "power" : 9.125
-    }
-  },
   "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
 
   "builder" : "/items/buildscripts/buildweapon.lua",
