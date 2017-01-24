@@ -3,5 +3,10 @@
     "op": "add",
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcmace"
   }
 ]
