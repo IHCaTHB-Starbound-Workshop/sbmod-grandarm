@@ -1,6 +1,6 @@
 {
   "itemName" : "npcmace",
-  "price" : 900,
+  "price" : 0,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Slow, heavy and effective.",
@@ -30,7 +30,7 @@
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
     "fireTime" : [0.5, 0.7],
-    "baseDps" : [11, 12],
+    "baseDps" : 7,
     "damageConfig" : {
       "damageSourceKind" : "hammer",
       "statusEffects" : [ ],
@@ -103,7 +103,7 @@
       },
       "handle" : {
         "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32",
-        "variants" : 50,
+        "variants" : 54,
         "paletteSwap" : true
       }
     },
@@ -120,7 +120,7 @@
       },
       "handle" : {
         "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32",
-        "variants" : 50,
+        "variants" : 54,
         "paletteSwap" : true
       }
     },
@@ -137,7 +137,7 @@
       },
       "handle" : {
         "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32",
-        "variants" : 50,
+        "variants" : 54,
         "paletteSwap" : true
       }
     },
@@ -154,7 +154,7 @@
       },
       "handle" : {
         "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32",
-        "variants" : 50,
+        "variants" : 54,
         "paletteSwap" : true
       }
     },
