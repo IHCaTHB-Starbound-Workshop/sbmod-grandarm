@@ -12,11 +12,16 @@ Club - large, heavy, blunt weapon which stuns
 Greataxe - large, heavy, double bladed axe
 Greatsword - slightly longer reach than standard broadsword
 Mace - light and quick...for a hammer
+Greatmace - same but 2h
 Quarterstaff - long and quick stick
 Shortspear - one handed short-range spear
 Armcannon - very fast plasma shot
 Longbow - great for hunting
 Spellbook - contains arcane magics
+
+spawncodes are as follows:
+common- uncommon- rare-
+-baton -cane -club -ga -gs -mace -gm -qs -shortspear -ac -lb -gb -sb
 
 For more, click the MEGATHREAD link from the steam page.
 
@@ -34,22 +39,32 @@ Club - large, heavy, blunt weapon which stuns
 Greataxe - large, heavy, double bladed axe
 Greatsword - slower and slightly longer reach than standard broadsword
 Mace - light and quick...for a hammer
+Greatmace - same but 2h
 Quarterstaff - long and quick stick
 Shortspear - one handed short-range spear
 Armcannon - very fast plasma shot
 Longbow - great for hunting
 Spellbook - contains arcane magics
 
-Integrated with [url=http://steamcommunity.com/sharedfiles/filedetails/?id=802382977]Open Armory[/url]!
+spawncodes are as follows:
+common- uncommon- rare-
+-baton -cane -club -ga -gs -mace -gm -qs -shortspear -ac -lb -gb -sb
+
+Integrated with:
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=802382977]Open Armory[/url]
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=782921923]Windup Armory Auto[/url]
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=782911333]Windup Armory Glow[/url]
 
 Compatibility patches for:
-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=729480149]Frackin Universe[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593165]x[/url])
-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=817468961]Melee Aiming[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593261]x[/url])
-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=760396113]Manufacturer's Touch[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593363]x[/url])
-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=780877247]Quarterstaff Armory[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593510]x[/url])
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=729480149]Frackin Universe[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593165]patch[/url])
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=817468961]Melee Aiming[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593261]patch[/url])
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=760396113]Manufacturer's Touch[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593363]patch[/url])
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=780877247]Quarterstaff Armory[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593510]patch[/url])
+
+Does not work with the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=783742589]Weapon Assembly[/url] station. Both mods function fine, the Grand Armory weapons are just inconsistent when put into the station.
 
 [url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
-Alternate downloads can be found on my [url=https://github.com/IsaacHart/sbmod-grandarm/releases/0.3]github.[/url]
+Alternate downloads can be found on my [url=https://github.com/IsaacHart/sbmod-grandarm/releases/0.4]github.[/url]
 
 ######
 #forum
@@ -74,10 +89,10 @@ Spellbook - contains arcane magics
 Integration with [url=community.playstarbound.com/resources/4326/]Open Armory[/url]!
 
 Compatibility patches for:
-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=729480149]Frackin Universe[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593165]x[/url])
-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=817468961]Melee Aiming[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593261]x[/url])
-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=760396113]Manufacturer's Touch[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593363]x[/url])
-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=780877247]Quarterstaff Armory[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593510]x[/url])
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=729480149]Frackin Universe[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593165]patch[/url])
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=817468961]Melee Aiming[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593261]patch[/url])
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=760396113]Manufacturer's Touch[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593363]patch[/url])
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=780877247]Quarterstaff Armory[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=837593510]patch[/url])
 
 [URL='http://community.playstarbound.com/threads/124193/']MEGATHREAD[/URL]
 
@@ -89,4 +104,4 @@ PERMISSIONS: granted per license, gplv3, included in download.
 #megathread
 ###########
 
-Grand Armory (0.3) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=836238594']steam[/URL] | [URL='http://community.playstarbound.com/resources/4430/']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-grandarm/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-grandarm/releases/download/0.3/sbmod-grandarm-0.3.pak']direct[/URL]
+Grand Armory (0.4) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=836238594']steam[/URL] | [URL='http://community.playstarbound.com/resources/4430/']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-grandarm/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-grandarm/releases/download/0.4/sbmod-grandarm-0.4.pak']direct[/URL]
