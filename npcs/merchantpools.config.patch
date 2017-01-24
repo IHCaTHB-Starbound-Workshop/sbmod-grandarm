@@ -12,5 +12,6 @@
 {"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonga"},"rarity":0.02,"useSeed":true}},
 {"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commongs"},"rarity":0.02,"useSeed":true}},
 {"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonmace"},"rarity":0.02,"useSeed":true}},
+{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commongm"},"rarity":0.02,"useSeed":true}},
 {"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"commonshortspear"},"rarity":0.02,"useSeed":true}}
 ]]

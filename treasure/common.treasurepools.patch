@@ -35,6 +35,10 @@
 {"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"commonmace"}},
 {"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"uncommonmace"}},
 {"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"raremace"}},
+//greatmace
+{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"commongm"}},
+{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"uncommongm"}},
+{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"raregm"}},
 //armcannon
 {"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"commonac"}},
 {"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"uncommonac"}},

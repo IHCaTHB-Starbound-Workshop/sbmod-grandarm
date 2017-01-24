@@ -23,6 +23,12 @@
     "path": "/items/override/0/1/0/primary/-",
     "value": "npcmace"
   },
+//greatmace
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "npcgm"
+  },
 //longbow
   {
     "op": "add",

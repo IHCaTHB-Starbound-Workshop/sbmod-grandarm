@@ -1,0 +1,66 @@
+{
+  "itemName" : "tungstenhammer",
+  "price" : 960,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Heavy, but hard-hitting.",
+  "shortdescription" : "Tungsten Hammer",
+  "tooltipKind" : "sword",
+  "category" : "greataxe",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","axe","greataxe"],
+
+  "inventoryIcon" : "tungstenga.png",
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "tungstenga.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "critChance" : 10,
+  "critBonus" : 6,
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 1.2,
+    "baseDps" : 11.5,
+    "stances" : {
+      "idle" : {
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "weaponOffset" : [0, 1.5]
+      },
+      "windup" : {
+        "weaponOffset" : [0, 2.0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false,
+        "bounceWeaponAngle" : [
+          [0.75, "linear", 20, 25],
+          [1.0, "cos", 25, 30]
+        ]
+      },
+      "fire" : {
+        "weaponOffset" : [0, 2.25],
+        "twoHanded" : true,
+        "allowFlip" : false,
+        "allowRotate" : false
+      }
+    }
+  },
+
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+
+  "altAbilityType" : "physicalshockwave",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

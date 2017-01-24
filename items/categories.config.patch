@@ -58,5 +58,10 @@
     "op": "add",
     "path": "/labels/shortspear",
     "value": "Short Spear"
+  },
+  {
+    "op": "add",
+    "path": "/labels/spellbook",
+    "value": "Spell Book"
   }
 ]
