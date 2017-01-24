@@ -6,9 +6,9 @@
   "description" : "This spear is perfect for wrecking enemies at short to mid-range.",
   "shortdescription" : "Common Short Spear",
   "tooltipKind" : "sword",
-  "category" : "spear",
+  "category" : "shortspear",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","spear"],
+  "itemTags" : ["weapon","melee","spear","shortspear"],
 
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
@@ -21,7 +21,7 @@
           }
         }
       }
-    } 
+    }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -30,7 +30,7 @@
 
   "aimOffset" : -1.0,
   "critChance" : 4,
-  "critBonus" : 7, 
+  "critBonus" : 7,
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : [0.72, 1.05],

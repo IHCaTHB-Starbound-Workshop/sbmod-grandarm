@@ -8,7 +8,7 @@
   "tooltipKind" : "sword",
   "category" : "baton",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","baton"],
+  "itemTags" : ["weapon","melee","baton","dagger"],
 
   "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
   "animationParts" : { },

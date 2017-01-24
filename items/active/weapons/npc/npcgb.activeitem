@@ -6,9 +6,9 @@
   "description" : "A bow and arrow of unknown origin.",
   "shortdescription" : "NPC Greatbow",
   "tooltipKind" : "bow",
-  "category" : "bow",
+  "category" : "greatbow",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","bow"],
+  "itemTags" : ["weapon","ranged","bow","greatbow"],
 
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : { },
@@ -62,8 +62,6 @@
   "elementalType" : "physical",
 
   "scripts" : ["/items/active/weapons/bow/bow.lua"],
-  "critChance" : 10,
-  "critBonus" : 6,
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
     "cooldownTime" : 0.6,
@@ -104,4 +102,3 @@
     "iconDrawables" : [ "bow", "bow0", "handle" ]
   }]
 }
-

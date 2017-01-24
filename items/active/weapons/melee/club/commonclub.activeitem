@@ -8,41 +8,41 @@
   "tooltipKind" : "sword",
   "category" : "club",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","club"],
+  "itemTags" : ["weapon","melee","club","hammer"],
 
   "animation" : "/items/active/weapons/melee/broadsword/broadsword.animation",
   "animationCustom" : {
-   "animatedParts" : {
-    "parts" : {
-      "blade" : {
-        "properties" : {
-          "zLevel" : 1,
-          "offset" : [-0.125, 1.75],
-          "damageArea" : [ [-0.7, -1.0], [-0.7, 2], [0.5, 2], [0.5, -1.0] ]
-        }
-      },
-      "handle" : {
-        "properties" : {
-          "zLevel" : 0,
-          "offset" : [-0.125, 1.75]
-        }
-      },
-      "swoosh" : {
-        "properties" : {
-          "offset" : [0, 0.5]
+    "animatedParts" : {
+      "parts" : {
+        "blade" : {
+          "properties" : {
+            "zLevel" : 1,
+            "offset" : [-0.125, 1.75],
+            "damageArea" : [ [-0.7, -1.0], [-0.7, 2], [0.5, 2], [0.5, -1.0] ]
+          }
         },
-        "partStates" : {
-          "swoosh" : {
-            "fire" : {
-              "properties" : {
-                "offset" : [1, 2.5]
+        "handle" : {
+          "properties" : {
+            "zLevel" : 0,
+            "offset" : [-0.125, 1.75]
+          }
+        },
+        "swoosh" : {
+          "properties" : {
+            "offset" : [0, 0.5]
+          },
+          "partStates" : {
+            "swoosh" : {
+              "fire" : {
+                "properties" : {
+                  "offset" : [1, 2.5]
+                }
               }
             }
           }
         }
       }
     }
-   }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],

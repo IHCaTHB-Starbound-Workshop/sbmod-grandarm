@@ -18,5 +18,45 @@
     "op": "add",
     "path": "/labels/quarterstaff",
     "value": "Quarterstaff"
+  },
+  {
+    "op": "add",
+    "path": "/labels/armcannon",
+    "value": "Arm Cannon"
+  },
+  {
+    "op": "add",
+    "path": "/labels/greataxe",
+    "value": "Great Axe"
+  },
+  {
+    "op": "add",
+    "path": "/labels/longbow",
+    "value": "Long Bow"
+  },
+  {
+    "op": "add",
+    "path": "/labels/greatbow",
+    "value": "Great Bow"
+  },
+  {
+    "op": "add",
+    "path": "/labels/mace",
+    "value": "Mace"
+  },
+  {
+    "op": "add",
+    "path": "/labels/greatmace",
+    "value": "Great Mace"
+  },
+  {
+    "op": "add",
+    "path": "/labels/greatsword",
+    "value": "Great Sword"
+  },
+  {
+    "op": "add",
+    "path": "/labels/shortspear",
+    "value": "Short Spear"
   }
 ]

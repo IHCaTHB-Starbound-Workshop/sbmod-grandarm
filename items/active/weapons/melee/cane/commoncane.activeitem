@@ -8,7 +8,7 @@
   "tooltipKind" : "sword",
   "category" : "cane",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","cane"],
+  "itemTags" : ["weapon","melee","cane","shortsword"],
 
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : { },

@@ -6,9 +6,9 @@
   "description" : "A very powerful two-handed sword.",
   "shortdescription" : "Common Great-Sword",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
+  "category" : "greatsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword"],
+  "itemTags" : ["weapon","melee","greatsword","broadsword"],
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : { },

@@ -8,7 +8,7 @@
   "tooltipKind" : "sword",
   "category" : "cane",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","cane"],
+  "itemTags" : ["weapon","melee","cane","shortsword"],
 
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : { },
@@ -33,8 +33,6 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
-  "critChance" : 6,
-  "critBonus" : 3,
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : [0.45, 0.6], //90% original shortsword model

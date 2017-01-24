@@ -6,9 +6,9 @@
   "description" : "A very powerful two-handed sword.",
   "shortdescription" : "NPC Great-Sword",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
+  "category" : "greatsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword"],
+  "itemTags" : ["weapon","melee","broadsword","greatsword"],
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : { },
@@ -17,8 +17,6 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
-  "critChance" : 6,
-  "critBonus" : 3,
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : [0.8, 1],

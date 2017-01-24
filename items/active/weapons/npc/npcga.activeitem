@@ -6,9 +6,9 @@
   "description" : "A very large, heavy axe",
   "shortdescription" : "NPC Great-Axe",
   "tooltipKind" : "sword",
-  "category" : "axe",
+  "category" : "greataxe",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","axe"],
+  "itemTags" : ["weapon","melee","axe","greataxe"],
 
   "animation" : "/items/active/weapons/melee/axe/axe.animation",
   "animationParts" : { },
@@ -78,8 +78,6 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
-  "critChance" : 10,
-  "critBonus" : 6,
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
     "fireTime" : [1.0, 1.2],

@@ -6,9 +6,9 @@
   "description" : "This quarterstaff is perfect for enemies just out of reach.",
   "shortdescription" : "Rare Quarterstaff",
   "tooltipKind" : "sword",
-  "category" : "spear",
+  "category" : "quarterstaff",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","spear"],
+  "itemTags" : ["weapon","melee","quarterstaff","spear"],
 
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
@@ -34,7 +34,7 @@
 
   "aimOffset" : -1.0,
   "critChance" : 6,
-  "critBonus" : 7, 
+  "critBonus" : 7,
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : [0.55, 0.74],

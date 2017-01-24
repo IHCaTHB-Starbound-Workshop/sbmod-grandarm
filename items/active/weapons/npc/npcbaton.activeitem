@@ -8,7 +8,7 @@
   "tooltipKind" : "sword",
   "category" : "baton",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","baton"],
+  "itemTags" : ["weapon","melee","baton","dagger"],
 
   "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
   "animationParts" : { },
@@ -17,8 +17,6 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
-  "critChance" : 10,
-  "critBonus" : 2,
   "aimOffset" : 0.0,
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],

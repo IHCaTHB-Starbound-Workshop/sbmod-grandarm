@@ -8,7 +8,7 @@
   "tooltipKind" : "sword",
   "category" : "quarterstaff",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","quarterstaff"],
+  "itemTags" : ["weapon","melee","quarterstaff","spear"],
 
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
@@ -35,8 +35,6 @@
   "elementalType" : "physical",
 
   "aimOffset" : -1.0,
-  "critChance" : 6,
-  "critBonus" : 7, 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : [0.66, 0.89],
@@ -168,4 +166,3 @@
     "iconDrawables" : [ "handle", "blade" ]
   }]
 }
-

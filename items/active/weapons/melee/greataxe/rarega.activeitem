@@ -6,9 +6,9 @@
   "description" : "A very large, heavy axe",
   "shortdescription" : "Rare Great-Axe",
   "tooltipKind" : "sword",
-  "category" : "axe",
+  "category" : "greataxe",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","axe"],
+  "itemTags" : ["weapon","melee","axe","greataxe"],
 
   "animation" : "/items/active/weapons/melee/axe/axe.animation",
   "animationParts" : { },

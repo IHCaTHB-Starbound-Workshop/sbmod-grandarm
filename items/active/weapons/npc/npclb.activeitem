@@ -6,9 +6,9 @@
   "description" : "A bow and arrow of unknown origin.",
   "shortdescription" : "NPC Longbow",
   "tooltipKind" : "bow",
-  "category" : "bow",
+  "category" : "longbow",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","bow"],
+  "itemTags" : ["weapon","ranged","bow","longbow"],
 
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : { },
@@ -53,8 +53,6 @@
   "elementalType" : "physical",
 
   "scripts" : ["/items/active/weapons/bow/bow.lua"],
-  "critChance" : 10,
-  "critBonus" : 6,
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
       "speed" : 50
@@ -82,4 +80,3 @@
     "iconDrawables" : [ "bow", "bow0" ]
   }]
 }
-

@@ -6,9 +6,9 @@
   "description" : "A cannon that fits over your arm",
   "shortdescription" : "NPC Arm-Cannon",
   "tooltipKind" : "gun",
-  "category" : "machinePistol",
+  "category" : "armcannon",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","machinepistol"],
+  "itemTags" : ["weapon","ranged","machinepistol","armcannon"],
   "handGrip" : "wrap",
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : { },
@@ -18,8 +18,6 @@
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "physical",
-  "critChance" : 2,
-  "critBonus" : 4,
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
