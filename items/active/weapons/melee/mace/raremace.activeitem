@@ -37,7 +37,7 @@
       "damageSourceKind" : "hammer",
       "statusEffects" : [ ],
       "knockbackMode" : "facing",
-      "knockback" : 30
+      "knockback" : 15
     },
     "smashMomentum" : [0, -30],
     "stances" : {
