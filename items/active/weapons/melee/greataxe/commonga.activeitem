@@ -13,66 +13,64 @@
   "animation" : "/items/active/weapons/melee/axe/axe.animation",
   "animationParts" : { },
   "animationCustom" : {
-   "animatedParts" : {
-    "parts" : {
-      "blade" : {
-        "properties" : {
-          "offset" : [0, 0.5]
-        }
-      },
-      "blade0" : {
-        "properties" : {
-          "zLevel" : 0,
-          "centered" : true,
-          "offset" : [0, 0.5],
-          "image" : "<partImage><paletteSwaps>",
-          "transformationGroups" : ["weapon"],
-          "rotationCenter" : [0, 0]
+    "animatedParts" : {
+      "parts" : {
+        "blade" : {
+          "properties" : {
+            "offset" : [0, 0.5]
+          }
         },
-
-        "partStates" : {
-          "weapon" : {
-            "fire" : {
-              "properties" : {
-                "damageArea" : [[-1.0, -0.75], [-1.0, 0.5], [1.625, 0.75], [1.625, -1.25]]
+        "blade0" : {
+          "properties" : {
+            "zLevel" : 0,
+            "centered" : true,
+            "offset" : [0, 0.5],
+            "image" : "<partImage><paletteSwaps>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0]
+          },
+          "partStates" : {
+            "weapon" : {
+              "fire" : {
+                "properties" : {
+                  "damageArea" : [[-1.0, -0.75], [-1.0, 0.5], [1.625, 0.75], [1.625, -1.25]]
+                }
               }
             }
           }
-        }
-      },
-      "blade1" : {
-        "properties" : {
-          "zLevel" : 3,
-          "centered" : true,
-          "offset" : [0, 0.5],
-          "image" : "<partImage><paletteSwaps>",
-          "transformationGroups" : ["weapon"],
-          "rotationCenter" : [0, 0]
         },
-
-        "partStates" : {
-          "weapon" : {
-            "fire" : {
-              "properties" : {
-                "damageArea" : [[-1.0, -0.75], [-1.0, 0.5], [1.625, 0.75], [1.625, -1.25]]
+        "blade1" : {
+          "properties" : {
+            "zLevel" : 3,
+            "centered" : true,
+            "offset" : [0, 0.5],
+            "image" : "<partImage><paletteSwaps>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0]
+          },
+          "partStates" : {
+            "weapon" : {
+              "fire" : {
+                "properties" : {
+                  "damageArea" : [[-1.0, -0.75], [-1.0, 0.5], [1.625, 0.75], [1.625, -1.25]]
+                }
               }
             }
           }
-        }
-      },
-      "handle" : {
-        "properties" : {
-          "offset" : [0, 0.5],
-          "zLevel" : 2
-        }
-      },
-      "swoosh" : {
-        "properties" : {
-          "offset" : [0, 1.0]
+        },
+        "handle" : {
+          "properties" : {
+            "offset" : [0, 0.5],
+            "zLevel" : 2
+          }
+        },
+        "swoosh" : {
+          "properties" : {
+            "offset" : [0, 1.0]
+          }
         }
       }
     }
-   }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
