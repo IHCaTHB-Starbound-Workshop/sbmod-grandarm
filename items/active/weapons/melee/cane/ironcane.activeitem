@@ -1,0 +1,86 @@
+{
+  "itemName" : "ironcane",
+  "price" : 480,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Doesn't feel so short to enemies.",
+  "shortdescription" : "Iron Shortsword",
+  "tooltipKind" : "sword",
+  "category" : "cane",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","cane"],
+
+  "inventoryIcon" : "ironcane.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "ironcane.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "fire2" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/quarterstaff/swoosh/<elementalType>swoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "critChance" : 6,
+  "critBonus" : 3,
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.525,
+    "baseDps" : 7.5,
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [0, 2.0]
+      },
+      "windup1" : {
+        "duration" : 0.04,
+        "weaponOffset" : [0, 2.0]
+      },
+      "fire1" : {
+        "duration" : 0.14,
+        "weaponOffset" : [0, 2.0]
+      },
+      "wait1" : {
+        "duration" : 0.2,
+        "weaponOffset" : [0, 2.0]
+      },
+      "windup2" : {
+        "duration" : 0.07,
+        "weaponOffset" : [0, 2.0]
+      },
+      "fire2" : {
+        "duration" : 0.2,
+        "weaponOffset" : [0, 2.0]
+      }
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1.0,
+        "knockback" : 10
+      },
+      {
+        "baseDamageFactor" : 1.4,
+        "knockback" : 25
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

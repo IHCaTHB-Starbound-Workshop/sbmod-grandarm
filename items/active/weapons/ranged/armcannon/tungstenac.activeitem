@@ -1,83 +1,87 @@
 {
-  "itemName" : "tungstenmagnum",
+  "itemName" : "tungstenac",
   "price" : 640,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A large handgun that packs a punch.",
-  "shortdescription" : "Tungsten Magnum",
+  "description" : "A cannon that fits over your arm.",
+  "shortdescription" : "Tungsten Arm Cannon",
   "tooltipKind" : "gun",
-  "category" : "pistol",
+  "category" : "armcannon",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","pistol"],
+  "itemTags" : ["weapon","ranged","machinepistol","armcannon"],
   "level" : 2,
-
-  "inventoryIcon" : "tungstenmagnum.png",
+  "handGrip" : "wrap",
+  "inventoryIcon" : "tungstenac.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "tungstenmagnum.png",
+    "middle" : "tungstenac.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/revolver1.ogg"]
+      "fire" : ["/sfx/gun/plasma_mp1.ogg", "/sfx/gun/plasma_mp2.ogg", "/sfx/gun/plasma_mp3.ogg", "/sfx/gun/plasma_pistol1.ogg", "/sfx/gun/plasma_pistol2.ogg", "/sfx/gun/plasma_pistol3.ogg"]
     }
   },
 
-  "baseOffset" : [0.6, 0.25],
-  "muzzleOffset" : [1.5, 0.125],
+  "baseOffset" : [-0.0625, 0.0625],
+  "muzzleOffset" : [-0.8, 0],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "physical",
-
+  "critChance" : 2,
+  "critBonus" : 4,
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.8,
-    "baseDps" : 6.25,
-    "energyUsage" : 18.75,
-    "inaccuracy" : 0.025,
+    "fireTime" : 0.11,
+    "baseDps" : 7.0,
+    "energyUsage" : 21,
+    "inaccuracy" : 0.04,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "standardbullet",
+    "projectileType" : "chargeshotsmall",
     "projectileParameters" : {
-      "knockback" : 8
+      "knockbackRange" : [2,4],
+      "damageKind" : "plasmabullet"
     },
+
     "stances" : {
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
       "fire" : {
         "duration" : 0,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
+        "armRotation" : 10,
+        "weaponRotation" : 0,
         "twoHanded" : false,
 
         "allowRotate" : false,
-        "allowFlip" : false
+        "allowFlip" : true
       },
       "cooldown" : {
         "duration" : 0.15,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
+        "armRotation" : 10,
+        "weaponRotation" : 0,
         "twoHanded" : false,
 
         "allowRotate" : false,
-        "allowFlip" : false
+        "allowFlip" : true
       }
     }
   },
+  "fireSounds" : [   ],
+
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

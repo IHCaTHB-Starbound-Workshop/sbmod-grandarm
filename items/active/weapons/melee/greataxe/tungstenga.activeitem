@@ -1,11 +1,11 @@
 {
-  "itemName" : "tungstenhammer",
+  "itemName" : "tungstenga",
   "price" : 960,
   "level" : 2,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Heavy, but hard-hitting.",
-  "shortdescription" : "Tungsten Hammer",
+  "shortdescription" : "Tungsten Great Axe",
   "tooltipKind" : "sword",
   "category" : "greataxe",
   "twoHanded" : true,

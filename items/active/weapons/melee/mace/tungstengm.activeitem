@@ -1,0 +1,110 @@
+{
+  "itemName" : "tungstengm",
+  "price" : 960,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Heavy, but hard-hitting.",
+  "shortdescription" : "Tungsten Great Mace",
+  "tooltipKind" : "sword",
+  "category" : "greatmace",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer","mace","greatmace"],
+
+  "inventoryIcon" : "tungstengm.png",
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "tungstengm.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    },
+    "animationParts" : {
+      "parts":{
+        "swoosh":{
+          "properties":{
+            "offset":[-1.5,2]
+          }
+        }
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "critChance" : 10,
+  "critBonus" : 11,
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 11.5,
+    "damageConfig" : {
+      "damageSourceKind" : "hammer",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "knockback" : 30
+    },
+    "smashMomentum" : [0, -30],
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.125, 0.5],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.75,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 1.75],
+        "allowRotate" : false,
+        "bounceTime" : 0.2,
+        "bounceWeaponAngle" : [
+          [0.75, "linear", 20, 60],
+          [0.875, "sin", 60, 55],
+          [1.0, "cos", 60, 55]
+        ],
+        "bounceArmAngle" : [
+          [1.0, "linear", 40, 50]
+        ],
+
+        "weaponAngle" : [
+          [1.0, "linear", -20, 20]
+        ],
+        "armAngle" : [
+          [1.0, "sin", -90, 40]
+        ]
+      },
+      "preslash" : {
+        "duration" : 0.02,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 2.0],
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.35,
+        "armRotation" : -35,
+        "weaponRotation" : -70,
+        "twoHanded" : true,
+        "smashTimer" : 1.0,
+        "weaponOffset" : [0, 2.0],
+        "allowRotate" : false
+      }
+    }
+  },
+
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+
+  "altAbilityType" : "physicalshockwave",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

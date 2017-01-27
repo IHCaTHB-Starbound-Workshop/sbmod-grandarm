@@ -1,0 +1,67 @@
+{
+  "itemName" : "titaniumshortspear",
+  "price" : 480,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A spear made for short range combat.",
+  "shortdescription" : "Titanium Shortspear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "titaniumshortspear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "titaniumshortspear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    },
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "properties" : {
+            "offset" : [1.5,0]
+          }
+        }
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 8.5,
+    "stances" : {
+      "idle" : {
+        "twoHanded" : false,
+        "weaponOffset" : [0, 1.0]
+      },
+      "windup" : {
+        "duration" : 0.08,
+        "twoHanded" : false,
+        "weaponOffset" : [0, 1.0]
+      },
+      "fire" : {
+        "duration" : 0.25,
+        "twoHanded" : false
+      },
+      "hold" : {
+        "twoHanded" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

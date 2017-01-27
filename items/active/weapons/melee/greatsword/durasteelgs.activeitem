@@ -1,11 +1,11 @@
 {
-  "itemName" : "durasteelbroadsword",
-  "price" : 1020,
+  "itemName" : "durasteelgs",
+  "price" : 1080,
   "level" : 4,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "A blade forged from solid durasteel. Few metals are stronger.",
-  "shortdescription" : "Durasteel Greatsword",
+  "shortdescription" : "Durasteel Great Sword",
   "tooltipKind" : "sword",
   "category" : "greatsword",
   "twoHanded" : true,
@@ -21,8 +21,6 @@
   "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "elementalType" : "physical",
 
   "elementalType" : "physical",
   "critChance" : 6,

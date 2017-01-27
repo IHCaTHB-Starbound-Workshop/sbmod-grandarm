@@ -13,21 +13,21 @@
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : { },
   "animationCustom" : {
-   "animatedParts" : {
-    "parts" : {
-      "swoosh" : {
-        "partStates" : {
-          "swoosh" : {
-            "fire2" : {
-              "properties" : {
-                "image" : "/items/active/weapons/melee/quarterstaff/swoosh/<elementalType>swoosh.png:<frame>"
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "fire2" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/quarterstaff/swoosh/<elementalType>swoosh.png:<frame>"
+                }
               }
             }
           }
         }
       }
     }
-   }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
