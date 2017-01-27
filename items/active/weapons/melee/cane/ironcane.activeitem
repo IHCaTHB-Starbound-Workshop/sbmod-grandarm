@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Doesn't feel so short to enemies.",
-  "shortdescription" : "Iron Shortsword",
+  "shortdescription" : "Iron Cane",
   "tooltipKind" : "sword",
   "category" : "cane",
   "twoHanded" : false,
