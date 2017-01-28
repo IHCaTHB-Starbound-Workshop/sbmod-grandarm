@@ -1,0 +1,132 @@
+[
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonbaton",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commoncance",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonclub",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonga",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commongm",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commongs",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonmace",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonqs",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaMelee/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonshortspear",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaRanged/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonac",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaRanged/0/1/fill/-",
+    "value": {
+      "item": [
+        "commongb",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaRanged/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonlb",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/testarenaRanged/0/1/fill/-",
+    "value": {
+      "item": [
+        "commonsb",
+        1
+      ]
+    }
+  }
+]
