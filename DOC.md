@@ -1,13 +1,15 @@
-### sbmod-grandarm
-### last updated 2017-01-28 for version 0.9
+# sbmod-grandarm
+#######
+# documentation
+last updated 2017-01-28 for version 0.9
 
 ##item ids
 ###generated
 ####prefix
-'common-'
-'uncommon-'
-'rare-'
-'npc-'
+`common-`
+`uncommon-`
+`rare-`
+`npc-`
 ####suffix
 -ac
 -baton
