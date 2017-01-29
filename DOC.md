@@ -1,7 +1,7 @@
 # sbmod-grandarm
 #######
 # documentation
-last updated 2017-01-28 for version 0.9
+last updated 2017-01-28 for version 0.5
 
 #backend
 ##item ids
@@ -57,3 +57,4 @@ nostatpoisonarrow
 buildrandbow.lua
 >found at /items/buildscripts
 >used to build random bows
+
