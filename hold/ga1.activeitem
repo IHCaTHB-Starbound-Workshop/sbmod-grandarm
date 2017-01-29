@@ -1,10 +1,10 @@
 {
-  "itemName" : "npcga",
-  "price" : 0,
+  "itemName" : "ga1",
+  "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A very large, heavy axe",
-  "shortdescription" : "NPC Great-Axe",
+  "shortdescription" : "Common Great-Axe",
   "tooltipKind" : "sword",
   "category" : "greataxe",
   "twoHanded" : true,
@@ -17,13 +17,14 @@
       "parts" : {
         "blade" : {
           "properties" : {
-            "zLevel" : 2
+            "offset" : [0, 0.5]
           }
         },
         "blade0" : {
           "properties" : {
-            "zLevel" : 1,
+            "zLevel" : 2,
             "centered" : true,
+            "offset" : [0, 0.5],
             "image" : "<partImage><paletteSwaps>",
             "transformationGroups" : ["weapon"],
             "rotationCenter" : [0, 0]
@@ -38,9 +39,33 @@
             }
           }
         },
-        "swoosh" : {
+        "blade1" : {
+          "properties" : {
+            "zLevel" : 3,
+            "centered" : true,
+            "offset" : [0, 0.5],
+            "image" : "<partImage><paletteSwaps>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0]
+          },
+          "partStates" : {
+            "weapon" : {
+              "fire" : {
+                "properties" : {
+                  "damageArea" : [[-1.0, -0.75], [-1.0, 0.5], [1.625, 0.75], [1.625, -1.25]]
+                }
+              }
+            }
+          }
+        },
+        "handle" : {
           "properties" : {
             "offset" : [0, 0.5]
+          }
+        },
+        "swoosh" : {
+          "properties" : {
+            "offset" : [0, 1.0]
           }
         }
       }
@@ -50,15 +75,17 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
+  "critChance" : 10,
+  "critBonus" : 6,
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
     "fireTime" : [1.0, 1.2],
-    "baseDps" : [10, 11],
+    "baseDps" : [12, 13],
     "stances" : {
       "idle" : {
         "allowRotate" : false,
         "allowFlip" : true,
-        "weaponOffset" : [0, 1.0]
+        "weaponOffset" : [0, 1.5]
       },
       "windup" : {
         "weaponOffset" : [0, 2.0],
@@ -81,14 +108,15 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
+    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;12;0?crop=44;112;72;192?replace;890900=00000000?border=1;890900;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;ff7060;00000000?border=1;890900;00000000?addmask=/items/active/weapons/melee/axe/blade/<variant>.png;-9;-21",
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;15;0?crop=44;112;72;192",
         "variants" : 59,
         "paletteSwap" : true
       },
       "blade0" : {
-        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;12;0?crop=44;112;72;192?replace;890900=00000000?border=1;890900;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;ff7060;00000000?border=1;890900;00000000?addmask=/items/active/weapons/melee/axe/blade/<variant>.png;-9;-21?flipx",
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;15;0?crop=44;112;72;192?flipx",
         "variants" : 59,
         "paletteSwap" : true
       },
@@ -98,7 +126,12 @@
         "paletteSwap" : true
       }
     },
+    "altAbilities" : [
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
-    "iconDrawables" : [  "handle" , "blade0" , "blade"]
+    "iconDrawables" : [  "handle" , "blade0" , "blade" ]
   }]
 }

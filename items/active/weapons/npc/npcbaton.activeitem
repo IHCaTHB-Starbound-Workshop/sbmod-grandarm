@@ -74,5 +74,21 @@
     "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "handle" ]
+  },
+  {
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/dagger/handle/<variant>.png;0;-10?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;182?blendmult=/items/active/weapons/melee/mask/masktrans.png;-13;-22?blendmult=/items/active/weapons/melee/mask/masktrans.png;62;-22?flipy?crop=0;164;24;192",
+        "variants" : 31,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/dagger/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;-13;-12?blendmult=/items/active/weapons/melee/mask/masktrans.png;62;-12",
+        "variants" : 31,
+        "paletteSwap" : true
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade", "handle" ]
   }]
 }

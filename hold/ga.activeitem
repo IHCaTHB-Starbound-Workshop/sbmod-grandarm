@@ -1,10 +1,10 @@
 {
-  "itemName" : "npcga",
-  "price" : 0,
+  "itemName" : "ga",
+  "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A very large, heavy axe",
-  "shortdescription" : "NPC Great-Axe",
+  "shortdescription" : "Common Great-Axe",
   "tooltipKind" : "sword",
   "category" : "greataxe",
   "twoHanded" : true,
@@ -50,10 +50,12 @@
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
+  "critChance" : 10,
+  "critBonus" : 6,
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
     "fireTime" : [1.0, 1.2],
-    "baseDps" : [10, 11],
+    "baseDps" : [12, 13],
     "stances" : {
       "idle" : {
         "allowRotate" : false,
@@ -81,6 +83,7 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
+    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
     "animationParts" : {
       "blade" : {
         "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;12;0?crop=44;112;72;192?replace;890900=00000000?border=1;890900;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;ff7060;00000000?border=1;890900;00000000?addmask=/items/active/weapons/melee/axe/blade/<variant>.png;-9;-21",
@@ -88,7 +91,7 @@
         "paletteSwap" : true
       },
       "blade0" : {
-        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;12;0?crop=44;112;72;192?replace;890900=00000000?border=1;890900;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;ff7060;00000000?border=1;890900;00000000?addmask=/items/active/weapons/melee/axe/blade/<variant>.png;-9;-21?flipx",
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;11;0?crop=44;112;72;192?replace;890900=00000000?border=1;890900;00000000?border=1;ff7060;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;890900;00000000?addmask=/items/active/weapons/melee/axe/blade/<variant>.png;-9;-21?flipx",
         "variants" : 59,
         "paletteSwap" : true
       },
@@ -98,7 +101,12 @@
         "paletteSwap" : true
       }
     },
+    "altAbilities" : [
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
-    "iconDrawables" : [  "handle" , "blade0" , "blade"]
+    "iconDrawables" : [  "handle" , "blade0" , "blade" ]
   }]
 }
