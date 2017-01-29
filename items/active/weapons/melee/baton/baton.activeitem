@@ -1,0 +1,86 @@
+{
+  "itemName" : "baton",
+  "price" : 450,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Solid and lightning quick.",
+  "shortdescription" : "Common Baton",
+  "tooltipKind" : "sword",
+  "category" : "baton",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","baton","dagger"],
+
+  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "critChance" : 10,
+  "critBonus" : 2,
+  "aimOffset" : 0.0,
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime" : [0.24, 0.38], //90% original dagger model
+    "baseDps" : [7.5, 8.5],
+    "damageConfig" : {
+      "damageSourceKind" : "dagger",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockbackRange" : [10, 15],
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup" : {
+        "duration" : 0.04,
+        "armRotation" : -20,
+        "weaponRotation" : -20,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.14,
+        "armRotation" : -135,
+        "weaponRotation" : 40,
+        "weaponOffset" : [0, 2.5],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_dagger.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "/items/active/weapons/melee/quarterstaff/qsnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/dagger/handle/<variant>.png;0;-10?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;182?blendmult=/items/active/weapons/melee/mask/masktrans.png;-13;-22?blendmult=/items/active/weapons/melee/mask/masktrans.png;62;-22?flipy?crop=0;164;24;192",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/dagger/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;-13;-12?blendmult=/items/active/weapons/melee/mask/masktrans.png;62;-12",
+        "variants" : 20,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade", "handle" ]
+  }]
+}
