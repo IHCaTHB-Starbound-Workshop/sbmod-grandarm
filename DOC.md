@@ -3,13 +3,14 @@
 # documentation
 last updated 2017-01-28 for version 0.9
 
+#backend
 ##item ids
 ###generated
 ####prefix
-`common-`
-`uncommon-`
-`rare-`
-`npc-`
+common-
+uncommon-
+rare-
+npc-
 ####suffix
 -ac
 -baton
@@ -24,8 +25,7 @@ last updated 2017-01-28 for version 0.9
 -qs
 -sb
 -shortspear
-
-NOTE: no npcsb
+>no npcsb
 
 ###crafted
 durasteelcane
