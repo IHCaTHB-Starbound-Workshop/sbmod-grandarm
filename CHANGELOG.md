@@ -4,6 +4,12 @@
 *change
 -removal
 
+vur
++ craftables
++ more treasurepools
+* mace knockback and swing timing
+* baton graphic rework
+
 v0.4 2017-01-02
   +1h mace variant
   *rectangular books
