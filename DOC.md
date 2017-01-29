@@ -6,12 +6,12 @@ last updated 2017-01-28 for version 0.9
 #backend
 ##item ids
 ###generated
-####prefix
+#####prefix
 common-
 uncommon-
 rare-
 npc-
-####suffix
+#####suffix
 -ac
 -baton
 -cane
@@ -25,7 +25,7 @@ npc-
 -qs
 -sb
 -shortspear
->no npcsb
+>note: no npcsb
 
 ###crafted
 durasteelcane
