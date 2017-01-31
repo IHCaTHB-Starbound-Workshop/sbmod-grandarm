@@ -1,0 +1,290 @@
+[
+  {
+    "op": "add",
+    "path": "/smallArmsC/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "commonac"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/smallArmsU/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "uncommonac"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/smallArmsR/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "rareac"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/longGunsC/0/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "commonlb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/longGunsU/0/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "uncommonlb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/longGunsR/0/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "rarelb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/heavyWeaponsC/0/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "commongb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/heavyWeaponsU/0/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "uncommongb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/heavyWeaponsR/0/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "raregb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commonbaton"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commoncane"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commonmace"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commonshortspear"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommonbaton"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommoncane"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommonmace"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommonshortspear"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "rarebaton"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "rarecane"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "raremace"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "rareshortspear"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commonclub"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commonga"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commongm"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commongs"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeC/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commonqs"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommonclub"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommonga"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommongm"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommongs"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeU/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommonqs"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "rareclub"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "rarega"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "raregm"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "raregs"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2hMeleeR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "rareqs"
+    }
+  }
+]
