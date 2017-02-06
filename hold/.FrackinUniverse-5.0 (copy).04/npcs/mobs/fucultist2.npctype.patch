@@ -1,0 +1,52 @@
+[
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcbaton"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npccane"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcclub"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcga"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcgs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcmace"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcgm"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcqs"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcshortspear"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/6/primary/-",
+    "value": "npcac"
+  }
+]
