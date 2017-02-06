@@ -1,0 +1,106 @@
+[
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommonbaton"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommoncane"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommonclub"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommonga"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommongs"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommonmace"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommongm"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommonqs"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.007,
+      "item": "uncommonshortspear"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.7,
+      "item": "rareac"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.7,
+      "item": "rarelb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.7,
+      "item": "raregb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimemonsterlargeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.7,
+      "item": "raresb"
+    }
+  }
+]
