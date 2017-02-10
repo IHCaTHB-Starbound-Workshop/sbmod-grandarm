@@ -86,9 +86,7 @@
     }
   },
 
-  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
-
-  "altAbilityType" : ["giantsword"],
+  "altAbilityType" : "bladecharge",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
