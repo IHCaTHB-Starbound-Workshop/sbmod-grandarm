@@ -7,10 +7,6 @@
 
     "energyCost" : 1,
 
-    "maxCastRange" : 1,
-
-    "damageConfig" : {
-      "damageSourceKind" : "<elementalType>plasma"
-    }
+    "maxCastRange" : 0
   }
 }

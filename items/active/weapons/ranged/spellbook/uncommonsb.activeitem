@@ -11,6 +11,43 @@
   "itemTags" : ["weapon","ranged","spell"],
 
   "animation" : "/items/active/weapons/staff/generated/generatedstaff.animation",
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "stone" : {
+          "properties" : {
+            "image" : ""
+          }
+        },
+        "chargeEffect" : {
+          "partStates" : {
+            "charge" : {
+              "charge" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "spark" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "charged" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "discharge" : {
+                "properties" : {
+                  "image" : ""
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
 
   "scripts" : ["/items/active/weapons/staff/staff.lua"],
   "stances" : {
