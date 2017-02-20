@@ -118,7 +118,10 @@
   "builderConfig" : [{
     "nameGenerator" : "sbnames.config:nameGen",
     "elementalType" : [
-      "electric"
+      "fire",
+      "ice",
+      "electric",
+      "poison"
     ],
     "elementalConfig" : {
       "electric" : {
@@ -140,7 +143,7 @@
     },
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "primaryAbilities" : ["elementrain", "elementswarm", "elementbouncer", "elementorb", "elementportal"],
-    "altAbilities" : ["healingzone", "lowgravzone", "slowzone", "pushzone", "pullzone", "energyzone","shockwave", "elementalaura", "elementalpillar"],
+    "altAbilities" : [ "shockwave", "elementalaura", "elementalpillar" ],
     "iconDrawables" : [ "handle","crown" ]
   }]
 }
