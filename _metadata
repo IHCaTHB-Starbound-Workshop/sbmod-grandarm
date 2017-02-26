@@ -23,7 +23,7 @@ common- uncommon- rare-
 
 For more, click the MEGATHREAD link from the steam page.",
   "friendlyName" : "Grand Armory",
-  "includes" : ["QSARM.IHC", "FrackinUniverse", "GRANDARMPRE.IHC","kit_manufacturer","GDRWCFIX.IHC"],
+  "includes" : ["QSARM.IHC", "FrackinUniverse", "GRANDARMPRE.IHC","kit_manufacturer","GDRWCFIX.IHC","gdrwc"],
   "link" : "steam://url/CommunityFilePage/836238594",
   "name" : "GRANDARM.IHC",
   "requires" : [],

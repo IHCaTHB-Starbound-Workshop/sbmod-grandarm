@@ -286,5 +286,29 @@
       "weight": 0.3,
       "item": "rareqs"
     }
+  },
+  {
+    "op": "add",
+    "path": "/magicR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "commonsb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/magicR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "uncommonsb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/magicR/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "raresb"
+    }
   }
 ]

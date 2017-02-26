@@ -66,4 +66,79 @@
 {"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.13,"item":"commonsb"}},
 {"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.13,"item":"uncommonsb"}},
 {"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.13,"item":"raresb"}}
+],[
+//rwc
+  {"op":"test","path":"/smallArmsC"},
+  {
+    "op": "add",
+    "path": "/smallArmsC/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "commonac"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/smallArmsU/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "uncommonac"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/smallArmsR/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "rareac"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/longGunsC/0/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "commonlb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/longGunsU/0/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "uncommonlb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/longGunsR/0/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "rarelb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/heavyWeaponsC/0/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "commongb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/heavyWeaponsU/0/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "uncommongb"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/heavyWeaponsR/0/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "raregb"
+    }
+  }
 ]]

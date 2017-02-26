@@ -124,9 +124,24 @@
       "poison"
     ],
     "elementalConfig" : {
+      "fire" : {
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [140, 40, 20]
+        }}}
+      },
+      "ice" : {
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [20, 80, 140]
+        }}}
+      },
       "electric" : {
         "animationCustom" : { "lights" : { "glow" : {
           "color" : [80, 20, 140]
+        }}}
+      },
+      "poison" : {
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [20, 140, 20]
         }}}
       }
     },
