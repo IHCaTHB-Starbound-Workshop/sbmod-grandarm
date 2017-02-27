@@ -96,5 +96,19 @@
     "value": {
       "item": "tungstenmace"
     }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "aegisaltac"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "violiumgs"
+    }
   }
 ]
