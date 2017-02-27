@@ -1,0 +1,87 @@
+{
+  "itemName" : "violiumgs",
+  "price" : 1020,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This hardened violium hilt houses the projector for a wicked energy blade.",
+  "shortdescription" : "Violium Greatsword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "violiumgsicon.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/energybroadsword.animation",
+  "animationParts" : {
+    "handle" : "handle.png",
+    "handleFullbright" : "handlefullbright.png",
+    "blade" : "blade.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1,
+    "baseDps" : 11.5,
+
+    "stances" : {
+      "idle" : {
+        "weaponOffset":[0,0]
+      },
+      "windup1" : {
+        "duration" : 0.15,
+        "weaponOffset":[0,1.75]
+      },
+      "preslash1" : {
+        "duration" : 0.030,
+        "weaponOffset":[0,1.75]
+      },
+      "fire1" : {
+        "duration" : 0.2,
+        "weaponOffset":[0,1.75]
+      },
+      "wait1" : {
+        "duration" : 0.25,
+        "weaponOffset":[0,1.75]
+      },
+      "windup2" : {
+        "duration" : 0.2,
+        "weaponOffset":[0,1.75]
+      },
+      "fire2" : {
+        "duration" : 0.25,
+        "weaponOffset":[0,1.75]
+      },
+      "wait2" : {
+        "duration" : 0.25,
+        "weaponOffset":[0,1.75]
+      },
+      "windup3" : {
+        "duration" : 0.2,
+        "weaponOffset":[0,1.75]
+      },
+      "fire3" : {
+        "duration" : 0.35,
+        "weaponOffset":[0,1.75]
+      }
+    }
+  },
+
+  "altAbilityType" : "flipslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

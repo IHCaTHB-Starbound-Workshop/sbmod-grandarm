@@ -1,7 +1,7 @@
 # sbmod-grandarm
 #######
 # documentation
-last updated 2017-01-28 for version 0.5
+last updated 2017-02-27 for version 0.6
 
 #backend
 ##item ids
@@ -42,6 +42,8 @@ tungstenclub
 tungstenga
 tungstengm
 tungstenmace
+aegisaltac
+violiumgs
 
 ##abilities
 magicnothing
