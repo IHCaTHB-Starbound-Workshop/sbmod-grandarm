@@ -80,6 +80,7 @@
       }
     }
   },
+  "fireSounds" : [ "/sfx/melee/swing_axe.ogg" ],
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
